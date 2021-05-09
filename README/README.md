@@ -2,7 +2,6 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/andrearamirezz/GT/blob/main/README/Images/Graph.jpeg
 
 <a href="https://github.com/andrearamirezz/GT/blob/main/README/Images/Graph.jpeg 
 ">Network Graph</a>

@@ -6,7 +6,10 @@ https://github.com/andrearamirezz/GT/blob/main/README/Images/Graph.jpeg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+The following playbooks were created: 
+https://github.com/andrearamirezz/GT/blob/main/README/Ansible/File-beat.yml 
+https://github.com/andrearamirezz/GT/blob/main/README/Ansible/metric-beat.yml
+https://github.com/andrearamirezz/GT/blob/main/README/Ansible/install-elk.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -93,6 +96,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+https://github.com/andrearamirezz/GT/blob/main/README/Images/Documentation%20httpshelp.ubuntu.com.jpeg
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

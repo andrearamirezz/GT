@@ -61,7 +61,6 @@ What does Metricbeat record?
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function  | IP Address | Operating System |
 |----------|---------- |------------|------------------|
@@ -87,7 +86,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  | 10.0.0.4             |
+| Jump Box | Yes                 | 10.0.0.4             |
 | DVWA-VM1 | No                  | 10.0.0.5             |
 | DVWA-VM2 | No                  | 10.0.0.6             | 
 |ELK-server| No                  | 10.1.0.4             |
@@ -107,8 +106,10 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-https://github.com/andrearamirezz/GT/blob/main/README/Images/Documentation%20httpshelp.ubuntu.com.jpeg
+
+<a href="https://github.com/andrearamirezz/GT/blob/main/README/Images/Documentation%20httpshelp.ubuntu.com.jpeg
+">Docker ps output</a>
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -118,7 +119,8 @@ We have installed the following Beats successfully on these machines:
  - Filebeat and Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Filebeat monitors the log files/locations that is specified, collects log events and forwards them to Elasticsearch or Logstash for indexing. Metricbeat fetches metrics from the Docker server. 
+
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 

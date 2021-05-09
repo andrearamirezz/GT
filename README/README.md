@@ -7,9 +7,11 @@ https://github.com/andrearamirezz/GT/blob/main/README/Images/Graph.jpeg
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
 The following playbooks were created: 
-https://github.com/andrearamirezz/GT/blob/main/README/Ansible/File-beat.yml 
-https://github.com/andrearamirezz/GT/blob/main/README/Ansible/metric-beat.yml
-https://github.com/andrearamirezz/GT/blob/main/README/Ansible/install-elk.yml
+<a href="https://github.com/andrearamirezz/GT/blob/main/README/Ansible/File-beat.yml 
+">Filebeat Playbook</a>
+
+<a href="https://github.com/andrearamirezz/GT/blob/main/README/Ansible/metric-beat.yml
+">Metricbeat Playbook</a>
 
 <a href="https://github.com/andrearamirezz/GT/blob/main/README/Ansible/install-elk.yml
 ">Installing Elk</a>
